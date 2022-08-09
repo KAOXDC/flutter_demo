@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:demo1/screens/home_screen.dart';
 
 // Clase Principal de la aplicación
 void main() {
@@ -15,8 +16,6 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Mi Primera App con Flutter',
-        home: Center(
-          child: Text("Hola Mundo!!!"),
-        ));
+        home: HomeScreen());
   }
 }
